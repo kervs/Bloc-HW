@@ -7,147 +7,152 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B92CC9A197EFB5700636280 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B92CC99197EFB5700636280 /* Foundation.framework */; };
-		3B92CC9C197EFB5700636280 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B92CC9B197EFB5700636280 /* CoreGraphics.framework */; };
-		3B92CC9E197EFB5700636280 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B92CC9D197EFB5700636280 /* UIKit.framework */; };
-		3B92CCA4197EFB5700636280 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B92CCA2197EFB5700636280 /* InfoPlist.strings */; };
-		3B92CCA6197EFB5700636280 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B92CCA5197EFB5700636280 /* main.m */; };
-		3B92CCAA197EFB5700636280 /* EWEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B92CCA9197EFB5700636280 /* EWEAppDelegate.m */; };
-		3B92CCAD197EFB5700636280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B92CCAB197EFB5700636280 /* Main.storyboard */; };
-		3B92CCB0197EFB5700636280 /* EWEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B92CCAF197EFB5700636280 /* EWEViewController.m */; };
-		3B92CCB2197EFB5700636280 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B92CCB1197EFB5700636280 /* Images.xcassets */; };
-		3B92CCB9197EFB5800636280 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B92CCB8197EFB5800636280 /* XCTest.framework */; };
-		3B92CCBA197EFB5800636280 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B92CC99197EFB5700636280 /* Foundation.framework */; };
-		3B92CCBB197EFB5800636280 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B92CC9D197EFB5700636280 /* UIKit.framework */; };
-		3B92CCC3197EFB5800636280 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B92CCC1197EFB5800636280 /* InfoPlist.strings */; };
-		3B92CCC5197EFB5800636280 /* SandboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B92CCC4197EFB5800636280 /* SandboxTests.m */; };
+		3B88511219881EDF00633981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B88511119881EDF00633981 /* Foundation.framework */; };
+		3B88511419881EDF00633981 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B88511319881EDF00633981 /* CoreGraphics.framework */; };
+		3B88511619881EDF00633981 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B88511519881EDF00633981 /* UIKit.framework */; };
+		3B88511C19881EDF00633981 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B88511A19881EDF00633981 /* InfoPlist.strings */; };
+		3B88511E19881EDF00633981 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B88511D19881EDF00633981 /* main.m */; };
+		3B88512219881EDF00633981 /* EWEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B88512119881EDF00633981 /* EWEAppDelegate.m */; };
+		3B88512519881EDF00633981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B88512319881EDF00633981 /* Main.storyboard */; };
+		3B88512819881EDF00633981 /* EWEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B88512719881EDF00633981 /* EWEViewController.m */; };
+		3B88512A19881EDF00633981 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B88512919881EDF00633981 /* Images.xcassets */; };
+		3B88513119881EDF00633981 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B88513019881EDF00633981 /* XCTest.framework */; };
+		3B88513219881EDF00633981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B88511119881EDF00633981 /* Foundation.framework */; };
+		3B88513319881EDF00633981 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B88511519881EDF00633981 /* UIKit.framework */; };
+		3B88513B19881EDF00633981 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B88513919881EDF00633981 /* InfoPlist.strings */; };
+		3B88513D19881EDF00633981 /* SandboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B88513C19881EDF00633981 /* SandboxTests.m */; };
+		3B88514819881F6900633981 /* EWECar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B88514719881F6900633981 /* EWECar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3B92CCBC197EFB5800636280 /* PBXContainerItemProxy */ = {
+		3B88513419881EDF00633981 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3B92CC8E197EFB5700636280 /* Project object */;
+			containerPortal = 3B88510619881EDF00633981 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3B92CC95197EFB5700636280;
+			remoteGlobalIDString = 3B88510D19881EDF00633981;
 			remoteInfo = Sandbox;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B92CC96197EFB5700636280 /* Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B92CC99197EFB5700636280 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		3B92CC9B197EFB5700636280 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3B92CC9D197EFB5700636280 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		3B92CCA1197EFB5700636280 /* Sandbox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sandbox-Info.plist"; sourceTree = "<group>"; };
-		3B92CCA3197EFB5700636280 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3B92CCA5197EFB5700636280 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3B92CCA7197EFB5700636280 /* Sandbox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sandbox-Prefix.pch"; sourceTree = "<group>"; };
-		3B92CCA8197EFB5700636280 /* EWEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWEAppDelegate.h; sourceTree = "<group>"; };
-		3B92CCA9197EFB5700636280 /* EWEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWEAppDelegate.m; sourceTree = "<group>"; };
-		3B92CCAC197EFB5700636280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3B92CCAE197EFB5700636280 /* EWEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWEViewController.h; sourceTree = "<group>"; };
-		3B92CCAF197EFB5700636280 /* EWEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWEViewController.m; sourceTree = "<group>"; };
-		3B92CCB1197EFB5700636280 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3B92CCB7197EFB5800636280 /* SandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B92CCB8197EFB5800636280 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3B92CCC0197EFB5800636280 /* SandboxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SandboxTests-Info.plist"; sourceTree = "<group>"; };
-		3B92CCC2197EFB5800636280 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3B92CCC4197EFB5800636280 /* SandboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandboxTests.m; sourceTree = "<group>"; };
+		3B88510E19881EDF00633981 /* Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B88511119881EDF00633981 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B88511319881EDF00633981 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B88511519881EDF00633981 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B88511919881EDF00633981 /* Sandbox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sandbox-Info.plist"; sourceTree = "<group>"; };
+		3B88511B19881EDF00633981 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B88511D19881EDF00633981 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B88511F19881EDF00633981 /* Sandbox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sandbox-Prefix.pch"; sourceTree = "<group>"; };
+		3B88512019881EDF00633981 /* EWEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWEAppDelegate.h; sourceTree = "<group>"; };
+		3B88512119881EDF00633981 /* EWEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWEAppDelegate.m; sourceTree = "<group>"; };
+		3B88512419881EDF00633981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B88512619881EDF00633981 /* EWEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWEViewController.h; sourceTree = "<group>"; };
+		3B88512719881EDF00633981 /* EWEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWEViewController.m; sourceTree = "<group>"; };
+		3B88512919881EDF00633981 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B88512F19881EDF00633981 /* SandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B88513019881EDF00633981 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3B88513819881EDF00633981 /* SandboxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SandboxTests-Info.plist"; sourceTree = "<group>"; };
+		3B88513A19881EDF00633981 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B88513C19881EDF00633981 /* SandboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandboxTests.m; sourceTree = "<group>"; };
+		3B88514619881F6900633981 /* EWECar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWECar.h; sourceTree = "<group>"; };
+		3B88514719881F6900633981 /* EWECar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWECar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3B92CC93197EFB5700636280 /* Frameworks */ = {
+		3B88510B19881EDF00633981 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B92CC9C197EFB5700636280 /* CoreGraphics.framework in Frameworks */,
-				3B92CC9E197EFB5700636280 /* UIKit.framework in Frameworks */,
-				3B92CC9A197EFB5700636280 /* Foundation.framework in Frameworks */,
+				3B88511419881EDF00633981 /* CoreGraphics.framework in Frameworks */,
+				3B88511619881EDF00633981 /* UIKit.framework in Frameworks */,
+				3B88511219881EDF00633981 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B92CCB4197EFB5800636280 /* Frameworks */ = {
+		3B88512C19881EDF00633981 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B92CCB9197EFB5800636280 /* XCTest.framework in Frameworks */,
-				3B92CCBB197EFB5800636280 /* UIKit.framework in Frameworks */,
-				3B92CCBA197EFB5800636280 /* Foundation.framework in Frameworks */,
+				3B88513119881EDF00633981 /* XCTest.framework in Frameworks */,
+				3B88513319881EDF00633981 /* UIKit.framework in Frameworks */,
+				3B88513219881EDF00633981 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B92CC8D197EFB5700636280 = {
+		3B88510519881EDF00633981 = {
 			isa = PBXGroup;
 			children = (
-				3B92CC9F197EFB5700636280 /* Sandbox */,
-				3B92CCBE197EFB5800636280 /* SandboxTests */,
-				3B92CC98197EFB5700636280 /* Frameworks */,
-				3B92CC97197EFB5700636280 /* Products */,
+				3B88511719881EDF00633981 /* Sandbox */,
+				3B88513619881EDF00633981 /* SandboxTests */,
+				3B88511019881EDF00633981 /* Frameworks */,
+				3B88510F19881EDF00633981 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3B92CC97197EFB5700636280 /* Products */ = {
+		3B88510F19881EDF00633981 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B92CC96197EFB5700636280 /* Sandbox.app */,
-				3B92CCB7197EFB5800636280 /* SandboxTests.xctest */,
+				3B88510E19881EDF00633981 /* Sandbox.app */,
+				3B88512F19881EDF00633981 /* SandboxTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B92CC98197EFB5700636280 /* Frameworks */ = {
+		3B88511019881EDF00633981 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3B92CC99197EFB5700636280 /* Foundation.framework */,
-				3B92CC9B197EFB5700636280 /* CoreGraphics.framework */,
-				3B92CC9D197EFB5700636280 /* UIKit.framework */,
-				3B92CCB8197EFB5800636280 /* XCTest.framework */,
+				3B88511119881EDF00633981 /* Foundation.framework */,
+				3B88511319881EDF00633981 /* CoreGraphics.framework */,
+				3B88511519881EDF00633981 /* UIKit.framework */,
+				3B88513019881EDF00633981 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3B92CC9F197EFB5700636280 /* Sandbox */ = {
+		3B88511719881EDF00633981 /* Sandbox */ = {
 			isa = PBXGroup;
 			children = (
-				3B92CCA8197EFB5700636280 /* EWEAppDelegate.h */,
-				3B92CCA9197EFB5700636280 /* EWEAppDelegate.m */,
-				3B92CCAB197EFB5700636280 /* Main.storyboard */,
-				3B92CCAE197EFB5700636280 /* EWEViewController.h */,
-				3B92CCAF197EFB5700636280 /* EWEViewController.m */,
-				3B92CCB1197EFB5700636280 /* Images.xcassets */,
-				3B92CCA0197EFB5700636280 /* Supporting Files */,
+				3B88512019881EDF00633981 /* EWEAppDelegate.h */,
+				3B88514619881F6900633981 /* EWECar.h */,
+				3B88514719881F6900633981 /* EWECar.m */,
+				3B88512119881EDF00633981 /* EWEAppDelegate.m */,
+				3B88512319881EDF00633981 /* Main.storyboard */,
+				3B88512619881EDF00633981 /* EWEViewController.h */,
+				3B88512719881EDF00633981 /* EWEViewController.m */,
+				3B88512919881EDF00633981 /* Images.xcassets */,
+				3B88511819881EDF00633981 /* Supporting Files */,
 			);
 			path = Sandbox;
 			sourceTree = "<group>";
 		};
-		3B92CCA0197EFB5700636280 /* Supporting Files */ = {
+		3B88511819881EDF00633981 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B92CCA1197EFB5700636280 /* Sandbox-Info.plist */,
-				3B92CCA2197EFB5700636280 /* InfoPlist.strings */,
-				3B92CCA5197EFB5700636280 /* main.m */,
-				3B92CCA7197EFB5700636280 /* Sandbox-Prefix.pch */,
+				3B88511919881EDF00633981 /* Sandbox-Info.plist */,
+				3B88511A19881EDF00633981 /* InfoPlist.strings */,
+				3B88511D19881EDF00633981 /* main.m */,
+				3B88511F19881EDF00633981 /* Sandbox-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3B92CCBE197EFB5800636280 /* SandboxTests */ = {
+		3B88513619881EDF00633981 /* SandboxTests */ = {
 			isa = PBXGroup;
 			children = (
-				3B92CCC4197EFB5800636280 /* SandboxTests.m */,
-				3B92CCBF197EFB5800636280 /* Supporting Files */,
+				3B88513C19881EDF00633981 /* SandboxTests.m */,
+				3B88513719881EDF00633981 /* Supporting Files */,
 			);
 			path = SandboxTests;
 			sourceTree = "<group>";
 		};
-		3B92CCBF197EFB5800636280 /* Supporting Files */ = {
+		3B88513719881EDF00633981 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B92CCC0197EFB5800636280 /* SandboxTests-Info.plist */,
-				3B92CCC1197EFB5800636280 /* InfoPlist.strings */,
+				3B88513819881EDF00633981 /* SandboxTests-Info.plist */,
+				3B88513919881EDF00633981 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,13 +160,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B92CC95197EFB5700636280 /* Sandbox */ = {
+		3B88510D19881EDF00633981 /* Sandbox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B92CCC8197EFB5800636280 /* Build configuration list for PBXNativeTarget "Sandbox" */;
+			buildConfigurationList = 3B88514019881EDF00633981 /* Build configuration list for PBXNativeTarget "Sandbox" */;
 			buildPhases = (
-				3B92CC92197EFB5700636280 /* Sources */,
-				3B92CC93197EFB5700636280 /* Frameworks */,
-				3B92CC94197EFB5700636280 /* Resources */,
+				3B88510A19881EDF00633981 /* Sources */,
+				3B88510B19881EDF00633981 /* Frameworks */,
+				3B88510C19881EDF00633981 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -169,43 +174,43 @@
 			);
 			name = Sandbox;
 			productName = Sandbox;
-			productReference = 3B92CC96197EFB5700636280 /* Sandbox.app */;
+			productReference = 3B88510E19881EDF00633981 /* Sandbox.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3B92CCB6197EFB5800636280 /* SandboxTests */ = {
+		3B88512E19881EDF00633981 /* SandboxTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B92CCCB197EFB5800636280 /* Build configuration list for PBXNativeTarget "SandboxTests" */;
+			buildConfigurationList = 3B88514319881EDF00633981 /* Build configuration list for PBXNativeTarget "SandboxTests" */;
 			buildPhases = (
-				3B92CCB3197EFB5800636280 /* Sources */,
-				3B92CCB4197EFB5800636280 /* Frameworks */,
-				3B92CCB5197EFB5800636280 /* Resources */,
+				3B88512B19881EDF00633981 /* Sources */,
+				3B88512C19881EDF00633981 /* Frameworks */,
+				3B88512D19881EDF00633981 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3B92CCBD197EFB5800636280 /* PBXTargetDependency */,
+				3B88513519881EDF00633981 /* PBXTargetDependency */,
 			);
 			name = SandboxTests;
 			productName = SandboxTests;
-			productReference = 3B92CCB7197EFB5800636280 /* SandboxTests.xctest */;
+			productReference = 3B88512F19881EDF00633981 /* SandboxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3B92CC8E197EFB5700636280 /* Project object */ = {
+		3B88510619881EDF00633981 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = EWE;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = EastoftheWestEnd;
 				TargetAttributes = {
-					3B92CCB6197EFB5800636280 = {
-						TestTargetID = 3B92CC95197EFB5700636280;
+					3B88512E19881EDF00633981 = {
+						TestTargetID = 3B88510D19881EDF00633981;
 					};
 				};
 			};
-			buildConfigurationList = 3B92CC91197EFB5700636280 /* Build configuration list for PBXProject "Sandbox" */;
+			buildConfigurationList = 3B88510919881EDF00633981 /* Build configuration list for PBXProject "Sandbox" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -213,88 +218,89 @@
 				en,
 				Base,
 			);
-			mainGroup = 3B92CC8D197EFB5700636280;
-			productRefGroup = 3B92CC97197EFB5700636280 /* Products */;
+			mainGroup = 3B88510519881EDF00633981;
+			productRefGroup = 3B88510F19881EDF00633981 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B92CC95197EFB5700636280 /* Sandbox */,
-				3B92CCB6197EFB5800636280 /* SandboxTests */,
+				3B88510D19881EDF00633981 /* Sandbox */,
+				3B88512E19881EDF00633981 /* SandboxTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3B92CC94197EFB5700636280 /* Resources */ = {
+		3B88510C19881EDF00633981 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B92CCB2197EFB5700636280 /* Images.xcassets in Resources */,
-				3B92CCA4197EFB5700636280 /* InfoPlist.strings in Resources */,
-				3B92CCAD197EFB5700636280 /* Main.storyboard in Resources */,
+				3B88512A19881EDF00633981 /* Images.xcassets in Resources */,
+				3B88511C19881EDF00633981 /* InfoPlist.strings in Resources */,
+				3B88512519881EDF00633981 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B92CCB5197EFB5800636280 /* Resources */ = {
+		3B88512D19881EDF00633981 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B92CCC3197EFB5800636280 /* InfoPlist.strings in Resources */,
+				3B88513B19881EDF00633981 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B92CC92197EFB5700636280 /* Sources */ = {
+		3B88510A19881EDF00633981 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B92CCAA197EFB5700636280 /* EWEAppDelegate.m in Sources */,
-				3B92CCA6197EFB5700636280 /* main.m in Sources */,
-				3B92CCB0197EFB5700636280 /* EWEViewController.m in Sources */,
+				3B88512219881EDF00633981 /* EWEAppDelegate.m in Sources */,
+				3B88511E19881EDF00633981 /* main.m in Sources */,
+				3B88514819881F6900633981 /* EWECar.m in Sources */,
+				3B88512819881EDF00633981 /* EWEViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B92CCB3197EFB5800636280 /* Sources */ = {
+		3B88512B19881EDF00633981 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B92CCC5197EFB5800636280 /* SandboxTests.m in Sources */,
+				3B88513D19881EDF00633981 /* SandboxTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3B92CCBD197EFB5800636280 /* PBXTargetDependency */ = {
+		3B88513519881EDF00633981 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3B92CC95197EFB5700636280 /* Sandbox */;
-			targetProxy = 3B92CCBC197EFB5800636280 /* PBXContainerItemProxy */;
+			target = 3B88510D19881EDF00633981 /* Sandbox */;
+			targetProxy = 3B88513419881EDF00633981 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3B92CCA2197EFB5700636280 /* InfoPlist.strings */ = {
+		3B88511A19881EDF00633981 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3B92CCA3197EFB5700636280 /* en */,
+				3B88511B19881EDF00633981 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		3B92CCAB197EFB5700636280 /* Main.storyboard */ = {
+		3B88512319881EDF00633981 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3B92CCAC197EFB5700636280 /* Base */,
+				3B88512419881EDF00633981 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3B92CCC1197EFB5800636280 /* InfoPlist.strings */ = {
+		3B88513919881EDF00633981 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3B92CCC2197EFB5800636280 /* en */,
+				3B88513A19881EDF00633981 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -302,7 +308,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3B92CCC6197EFB5800636280 /* Debug */ = {
+		3B88513E19881EDF00633981 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -340,7 +346,7 @@
 			};
 			name = Debug;
 		};
-		3B92CCC7197EFB5800636280 /* Release */ = {
+		3B88513F19881EDF00633981 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,7 +378,7 @@
 			};
 			name = Release;
 		};
-		3B92CCC9197EFB5800636280 /* Debug */ = {
+		3B88514119881EDF00633981 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -385,7 +391,7 @@
 			};
 			name = Debug;
 		};
-		3B92CCCA197EFB5800636280 /* Release */ = {
+		3B88514219881EDF00633981 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -398,7 +404,7 @@
 			};
 			name = Release;
 		};
-		3B92CCCC197EFB5800636280 /* Debug */ = {
+		3B88514419881EDF00633981 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sandbox.app/Sandbox";
@@ -420,7 +426,7 @@
 			};
 			name = Debug;
 		};
-		3B92CCCD197EFB5800636280 /* Release */ = {
+		3B88514519881EDF00633981 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sandbox.app/Sandbox";
@@ -441,32 +447,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B92CC91197EFB5700636280 /* Build configuration list for PBXProject "Sandbox" */ = {
+		3B88510919881EDF00633981 /* Build configuration list for PBXProject "Sandbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B92CCC6197EFB5800636280 /* Debug */,
-				3B92CCC7197EFB5800636280 /* Release */,
+				3B88513E19881EDF00633981 /* Debug */,
+				3B88513F19881EDF00633981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B92CCC8197EFB5800636280 /* Build configuration list for PBXNativeTarget "Sandbox" */ = {
+		3B88514019881EDF00633981 /* Build configuration list for PBXNativeTarget "Sandbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B92CCC9197EFB5800636280 /* Debug */,
-				3B92CCCA197EFB5800636280 /* Release */,
+				3B88514119881EDF00633981 /* Debug */,
+				3B88514219881EDF00633981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		3B92CCCB197EFB5800636280 /* Build configuration list for PBXNativeTarget "SandboxTests" */ = {
+		3B88514319881EDF00633981 /* Build configuration list for PBXNativeTarget "SandboxTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B92CCCC197EFB5800636280 /* Debug */,
-				3B92CCCD197EFB5800636280 /* Release */,
+				3B88514419881EDF00633981 /* Debug */,
+				3B88514519881EDF00633981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3B92CC8E197EFB5700636280 /* Project object */;
+	rootObject = 3B88510619881EDF00633981 /* Project object */;
 }

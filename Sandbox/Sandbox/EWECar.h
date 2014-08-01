@@ -1,13 +1,16 @@
 //
-//  EWEViewController.h
+//  EWECar.h
 //  Sandbox
 //
 //  Created by Kervins Valcourt on 7/29/14.
 //  Copyright (c) 2014 EastoftheWestEnd. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface EWEViewController : UIViewController
+@interface EWECar : NSObject
+@property NSString *hornSound;
+
+-(void)honk;
 
 @end
