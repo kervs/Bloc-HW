@@ -10,9 +10,9 @@
 		3B5303CC198B1328001EDAD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5303CB198B1328001EDAD4 /* main.m */; };
 		3B5303CF198B1328001EDAD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5303CE198B1328001EDAD4 /* AppDelegate.m */; };
 		3B5303D2198B1328001EDAD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5303D1198B1328001EDAD4 /* ViewController.m */; };
-		3B5303D5198B1328001EDAD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5303D3198B1328001EDAD4 /* Main.storyboard */; };
 		3B5303D7198B1328001EDAD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5303D6198B1328001EDAD4 /* Images.xcassets */; };
 		3B5303E3198B1328001EDAD4 /* AlcolaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5303E2198B1328001EDAD4 /* AlcolaterTests.m */; };
+		3B6DDCCE19903F49001C528B /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6DDCCD19903F49001C528B /* WhiskeyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +33,12 @@
 		3B5303CE198B1328001EDAD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3B5303D0198B1328001EDAD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3B5303D1198B1328001EDAD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3B5303D4198B1328001EDAD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B5303D6198B1328001EDAD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3B5303DC198B1328001EDAD4 /* AlcolaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcolaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5303E1198B1328001EDAD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B5303E2198B1328001EDAD4 /* AlcolaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlcolaterTests.m; sourceTree = "<group>"; };
+		3B6DDCCC19903F49001C528B /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
+		3B6DDCCD19903F49001C528B /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +84,8 @@
 				3B5303CE198B1328001EDAD4 /* AppDelegate.m */,
 				3B5303D0198B1328001EDAD4 /* ViewController.h */,
 				3B5303D1198B1328001EDAD4 /* ViewController.m */,
-				3B5303D3198B1328001EDAD4 /* Main.storyboard */,
+				3B6DDCCC19903F49001C528B /* WhiskeyViewController.h */,
+				3B6DDCCD19903F49001C528B /* WhiskeyViewController.m */,
 				3B5303D6198B1328001EDAD4 /* Images.xcassets */,
 				3B5303C9198B1328001EDAD4 /* Supporting Files */,
 			);
@@ -196,7 +198,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B5303D5198B1328001EDAD4 /* Main.storyboard in Resources */,
 				3B5303D7198B1328001EDAD4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B5303D2198B1328001EDAD4 /* ViewController.m in Sources */,
+				3B6DDCCE19903F49001C528B /* WhiskeyViewController.m in Sources */,
 				3B5303CF198B1328001EDAD4 /* AppDelegate.m in Sources */,
 				3B5303CC198B1328001EDAD4 /* main.m in Sources */,
 			);
@@ -238,17 +240,6 @@
 			targetProxy = 3B5303DD198B1328001EDAD4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3B5303D3198B1328001EDAD4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B5303D4198B1328001EDAD4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3B5303E4198B1328001EDAD4 /* Debug */ = {
@@ -335,6 +326,7 @@
 				INFOPLIST_FILE = Alcolater/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -346,6 +338,7 @@
 				INFOPLIST_FILE = Alcolater/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -402,6 +395,7 @@
 				3B5303E8198B1328001EDAD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B5303E9198B1328001EDAD4 /* Build configuration list for PBXNativeTarget "AlcolaterTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +404,7 @@
 				3B5303EB198B1328001EDAD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
