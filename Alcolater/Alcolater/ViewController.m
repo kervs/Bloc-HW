@@ -2,7 +2,7 @@
 //  ViewController.m
 //  Alcolater
 //
-//  Created by Kervins Valcourt on 7/31/14.
+//  Created by Kervins Valcourt  on 7/31/14.
 //  Copyright (c) 2014 EastoftheWestEnd. All rights reserved.
 //
 
