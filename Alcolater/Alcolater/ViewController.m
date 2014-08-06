@@ -42,6 +42,8 @@
     self.resultLabel = label;
     self.calculateButton = button;
     self.hideKeyboardTapGestureRecognizer = tap;
+    
+    self.title = NSLocalizedString(@"Wine", @"wine");
 }
 
 
@@ -63,7 +65,7 @@
     // setting up textfield design settings
     self.beerPercentTextField.backgroundColor = [UIColor whiteColor];
     self.beerPercentTextField.layer.cornerRadius = 5;
-    self.beerPercentTextField.keyboardType = UIKeyboardTypeNumberPad;
+
     
     // Tells `self.beerCountSlider` that when its value changes, it should call `[self -sliderValueDidChange:]`.
     // This is equivalent to connecting the IBAction in our previous checkpoint
@@ -90,21 +92,22 @@
     [super viewWillLayoutSubviews];
 
     CGFloat viewWidth = [[UIScreen mainScreen] bounds].size.width;
+    CGFloat navHeight = 88;
     CGFloat padding = 20;
     CGFloat itemWidth = viewWidth - padding - padding;
     CGFloat itemHeight = 44;
    
  
-            self.beerPercentTextField.frame = CGRectMake(padding, padding, itemWidth, itemHeight);
+            self.beerPercentTextField.frame = CGRectMake(padding, navHeight, itemWidth, itemHeight);
             
             CGFloat bottomOfTextField = CGRectGetMaxY(self.beerPercentTextField.frame);
             self.beerCountSlider.frame = CGRectMake(padding, bottomOfTextField + padding, itemWidth, itemHeight);
             
             CGFloat bottomOfSlider = CGRectGetMaxY(self.beerCountSlider.frame);
-            self.resultLabel.frame = CGRectMake(padding, bottomOfSlider + padding, itemWidth, itemHeight * 2);
+            self.resultLabel.frame = CGRectMake(padding, bottomOfSlider + padding, itemWidth, itemHeight*  2 );
             
             CGFloat bottomOfLabel = CGRectGetMaxY(self.resultLabel.frame);
-            self.calculateButton.frame = CGRectMake(padding, bottomOfLabel + padding, itemWidth, itemHeight);
+            self.calculateButton.frame = CGRectMake(padding, bottomOfLabel, itemWidth, itemHeight);
     
 
         
@@ -130,6 +133,8 @@
     
     NSLog(@"Slider value to %f",sender.value);
     [self.beerPercentTextField resignFirstResponder];
+    
+    
     
     
 }
@@ -174,8 +179,10 @@
     
     // generate the result text, and display it on the label
     
-    NSString *resultText = [NSString stringWithFormat:NSLocalizedString(@"%d %@ contains as much alcohol as %.1f %@ of wine.", nil), numberOfBeers, beerText, numberOfWineGlassesForEquivalentAlcoholAmount, wineText];
+    NSString *resultText = [NSString stringWithFormat:NSLocalizedString(@"%d %@ contains as much alcohol as %.0f %@ of wine.", nil), numberOfBeers, beerText, numberOfWineGlassesForEquivalentAlcoholAmount, wineText];
     self.resultLabel.text = resultText;
+    
+    self.title =[NSString stringWithFormat: NSLocalizedString(@"%@ %.0f", nil), @"wine", numberOfWineGlassesForEquivalentAlcoholAmount];
 }
 
 - (void)tapGestureDidFire:(UITapGestureRecognizer *)sender {
