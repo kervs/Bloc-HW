@@ -16,7 +16,19 @@
 @end
 
 @implementation ViewController
-            
+
+- (instancetype) init {
+    self = [super init];
+    
+    if (self) {
+        self.title = NSLocalizedString(@"Wine", @"wine");
+        // Since we don't have icons, let's move the title to the middle of the tab bar
+        [self.tabBarItem setTitlePositionAdjustment:UIOffsetMake(0, -18)];
+    }
+    
+    return self;
+}
+
 
 - (void)loadView {
     // Allocate and initialize the all-encompassing view
@@ -43,7 +55,7 @@
     self.calculateButton = button;
     self.hideKeyboardTapGestureRecognizer = tap;
     
-    self.title = NSLocalizedString(@"Wine", @"wine");
+    
 }
 
 
@@ -54,8 +66,7 @@
     [super viewDidLoad];
     
     // Set our primary view's background color to lightGrayColor
-    self.view.backgroundColor = [UIColor lightGrayColor];
-    
+    self.view.backgroundColor = [UIColor colorWithRed:0.741 green:0.925 blue:0.714 alpha:1];
     
     // Tells the text field that `self`, this instance of `EWEViewController` should be treated as the text field's delegate
     self.beerPercentTextField.delegate = self;
@@ -86,6 +97,8 @@
     
     // Gets rid of the maximum number of lines on the label
     self.resultLabel.numberOfLines = 0;
+    
+    
 }
 
 - (void) viewWillLayoutSubviews {
@@ -182,12 +195,13 @@
     NSString *resultText = [NSString stringWithFormat:NSLocalizedString(@"%d %@ contains as much alcohol as %.0f %@ of wine.", nil), numberOfBeers, beerText, numberOfWineGlassesForEquivalentAlcoholAmount, wineText];
     self.resultLabel.text = resultText;
     
-    self.title =[NSString stringWithFormat: NSLocalizedString(@"%@ %.0f", nil), @"wine", numberOfWineGlassesForEquivalentAlcoholAmount];
+    [self.tabBarItem setBadgeValue:[NSString stringWithFormat:@"%d", (int) numberOfWineGlassesForEquivalentAlcoholAmount]];
 }
 
 - (void)tapGestureDidFire:(UITapGestureRecognizer *)sender {
     [self.beerPercentTextField resignFirstResponder];
 }
+
 
 
 
